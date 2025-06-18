@@ -1,0 +1,68 @@
+body {
+    background-color: #e0f7fa; /* Sky blue */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff; /* White */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(74, 54, 191, 0.1);
+}
+
+.instruction {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.back-btn {
+    background-color: #09096f; /* Black */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.back-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.form-btn {
+    background-color: #90caf9; /* Light blue */
+    color: #000; /* Black */
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.form-btn:active {
+    transform: translateY(2px);
+}

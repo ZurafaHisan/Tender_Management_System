@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form_2.css">
+</head>
+<body>
+
+    <form action="form_2.php" method="post">
+        <div id="myHeader">
+            <p id="h1">গ্রুপ-খ (মাছ, মাংস ও পোল্ট্রি)</p>
+        </div>
+
+        <div id="section_1">
+            <label for="">User ID:</label>
+            <input type="text" id="user_id" name="user_id">
+            <div id="hr"></div>
+            <br> <br>
+            <ol>
+                <li >মাছ (কাতল ১টায় কেজি) [প্রতি কেজি] 
+                    <br><input type="number" name="item1"></li>
+                <li >মাছ (রুই ১টায় কেজি) [প্রতি কেজি]
+                    <br><input type="number" name="item2"></li>
+                <li >মাছ (মৃগেল ১টায় কেজি) [প্রতি কেজি]
+                    <br><input type="number" name="item3"></li>
+                <li >মাংস (গরু) [প্রতি কেজি]
+                    <br><input type="number" name="item4"></li>
+                <li >মাংস (খাসী) [প্রতি কেজি]
+                    <br><input type="number" name="item5"></li>
+                
+            </ol>
+        </div>
+
+        <article id="section_2">
+            <br> <br> <br> <br>
+            <ol start="6">
+                
+                <li>মুরগী (পাকিস্তানি) [প্রতি কেজি]
+                    <br><input type="number" name="item6"></li>
+                <li>মুরগী (পাকিস্তানি) (শুধু মাথা ও মাংস) [প্রতি কেজি]
+                    <br><input type="number" name="item7"></li>
+                <li>মুরগী(ফার্ম)  [প্রতি কেজি]
+                    <br><input type="number" name="item8"></li>
+                <li>মুরগী (ফার্ম) (শুধু মাথা ও মাংস)  [প্রতি কেজি]
+                    <br><input type="number" name="item9"></li>
+                <li>ডিম (ফার্ম) [প্রতি পিচ]
+                    <br><input type="number" name="item10"></li>
+                
+            </ol>
+        </article>
+
+        <div id="total">
+            <label style="font-size: 2em;">মৌট টাকা: </label> 
+            <input style="font-size: 1.2em;" type="number" name="total">
+        </div>
+
+        <div id="bottom">
+            <p id="p" style="font-size: 1em;"></p>
+        </div>
+
+        <input type="submit" id="mySubmit" name="submit">
+            
+    </form>
+    
+    
+</body>
+</html>

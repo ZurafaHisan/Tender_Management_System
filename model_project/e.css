@@ -1,0 +1,400 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .rectangle {
+    position: relative;
+    width: 1440px;
+    height: 135px;
+    margin: 0 0 0 0;
+    background: #6ce6f9;
+    z-index: 3;
+  }
+  .bidder-profile {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 58px;
+    top: 21px;
+    left: 513px;
+    color: #000000;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 58px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 4;
+  }
+  .chat {
+    display: block;
+    position: relative;
+    height: 37px;
+    margin: 796px 0 0 28px;
+    color: #c3bb46;
+    font-family: Sahitya, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 37px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 16;
+  }
+  .rectangle-1 {
+    position: absolute;
+    width: 863px;
+    height: 299px;
+    top: 144px;
+    left: 223px;
+    background: #ffffff;
+    /*border: 2px solid #848484;*/
+    z-index: 1;
+    border-radius: 5px;
+    box-sizing: content-box;
+  }
+  .frame {
+    position: relative;
+    width: 330px;
+    height: 57px;
+    margin: 1px 0 0 18px;
+    z-index: 5;
+    /*border: 2px solid;*/
+    overflow: hidden;
+  }
+  .business-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 56px;
+    top: 1px;
+    left: 0;
+    color: #000000;
+    font-family: Sahitya, var(--default-font-family);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 55.908px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 6;
+  }
+  .flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 530px;
+    height: 42px;
+    margin: 60px 0 0 28px;
+    z-index: 18;
+  }
+  .company-name {
+    flex-shrink: 0;
+    position: relative;
+    height: 42px;
+    color: #000000;
+    font-family: Sahitya, var(--default-font-family);
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 41.931px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 8;
+  }
+  .rectangle-2 {
+    flex-shrink: 0;
+    position: relative;
+    width: 318px;
+    height: 42px;
+    font-family: Sahitya, var(--default-font-family);
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 41.931px;
+    text-align: left;
+    white-space: nowrap;
+    background: #ffffff;
+    /*border: 2px solid #848484;*/
+    z-index: 18;
+    border-radius: 5px;
+    box-sizing: content-box;
+  }
+  .flex-row-cb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 530px;
+    height: 42px;
+    margin: 25px 0 0 28px;
+    z-index: 17;
+  }
+  .tin {
+    flex-shrink: 0;
+    position: relative;
+    height: 42px;
+    color: #000000;
+    font-family: Sahitya, var(--default-font-family);
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 41.931px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 11;
+  }
+  .rectangle-3 {
+    flex-shrink: 0;
+    position: relative;
+    width: 318px;
+    height: 42px;
+    font-family: Sahitya, var(--default-font-family);
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 41.931px;
+    text-align: left;
+    white-space: nowrap;
+    background: #ffffff;
+    /*border: 2px solid #848484;*/
+    z-index: 17;
+    border-radius: 5px;
+    box-sizing: content-box;
+  }
+  .home {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 37px;
+    top: 160px;
+    left: 28px;
+    color: #c3bb46;
+    font-family: Sahitya, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 37px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 15;
+  }
+  .frame-4 {
+    position: absolute;
+    width: 11px;
+    height: 231px;
+    top: 283px;
+    left: 530px;
+    z-index: 14;
+    overflow: hidden;
+  }
+  .rectangle-5 {
+    position: absolute;
+    width: 863px;
+    height: 500px;
+    top: 484px;
+    left: 223px;
+    font-size: 0px;
+    background: #ffffff;
+    /*border: 2px solid #848484;*/
+    border-radius: 5px;
+    box-sizing: content-box;
+  }
+  .bidder-information {
+    display: block;
+    position: relative;
+    height: 56px;
+    margin: 0 0 0 15px;
+    color: #000000;
+    font-family: Sahitya, var(--default-font-family);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 55.908px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 7;
+  }
+  .flex-row-aa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 543px;
+    height: 45px;
+    margin: 48px 0 0 15px;
+    z-index: 19;
+  }
+  .user-name {
+    flex-shrink: 0;
+    position: relative;
+    height: 42px;
+    color: #000000;
+    font-family: Sahitya, var(--default-font-family);
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 41.931px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 9;
+  }
+  .rectangle-6 {
+    flex-shrink: 0;
+    position: relative;
+    width: 318px;
+    height: 42px;
+    background: #ffffff;
+    border: 2px solid #848484;
+    z-index: 19;
+    border-radius: 5px;
+    box-sizing: content-box;
+  }
+  .flex-row-b {
+    position: relative;
+    width: 540px;
+    height: 51px;
+    margin: 22px 0 0 18px;
+    z-index: 20;
+  }
+  .name {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 42px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Sahitya, var(--default-font-family);
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 41.931px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 10;
+  }
+  .rectangle-7 {
+    position: absolute;
+    width: 318px;
+    height: 42px;
+    top: 9px;
+    left: 222px;
+    background: #ffffff;
+    border: 2px solid #848484;
+    z-index: 20;
+    border-radius: 5px;
+    box-sizing: content-box;
+  }
+  .flex-row-adb {
+    width: 543px;
+    height: 45px;
+    margin: 48px 0 0 15px;
+    display: flex;
+    align-items: center;
+  }
+
+  .flex-row-ee {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 543px;
+    height: 45px;
+    margin: 48px 0 0 15px;
+    z-index: 19;
+  }
+
+  
+  .a1{
+
+    width: 600px;
+    height: 50px;
+    /*border : 2px solid;*/
+    transform: translate(0px, 10px);
+
+  }
+
+  #title{
+    display: block;
+    position: relative;
+    height: 56px;
+    margin: 0 0 0 15px;
+    color: #000000;
+    font-family: Sahitya, var(--default-font-family);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 55.908px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 7;
+  }
+
+  .a2{
+
+    width: 750px;
+    height: 50px;
+    /*border : 2px solid;*/
+    transform: translate(20px, 20px);
+    margin-bottom: 20px;
+
+  }
+
+  .b1{
+    flex-shrink: 0;
+    position: relative;
+    height: 42px;
+    color: #000000;
+    font-family: Sahitya, var(--default-font-family);
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 41.931px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 8;
+  }
+
+  .r1{
+    width: 400px;
+    height: 45px;
+    font-family: Sahitya, var(--default-font-family);
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 41.931px;
+    text-align: left;
+    white-space: nowrap;
+    /*border: 2px solid;*/
+    position: absolute;
+    top: 0px;
+    left: 223px;
+    background: #ffffff;
+    color: black;
+    /*border: 2px solid #848484;*/
+    z-index: 1;
+    border-radius: 5px;
+    box-sizing: content-box;
+    
+    
+  }

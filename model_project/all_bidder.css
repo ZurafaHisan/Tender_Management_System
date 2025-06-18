@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Light sky blue */
+    color: black;
+    text-align: center;
+}
+
+header {
+    background-color: #0288d1; /* Darker sky blue */
+    padding: 10px;
+    color: white;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: white;
+    background-color: #01579b; /* Dark sky blue */
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.nav-button:hover {
+    background-color: #0288d1;
+}
+
+main {
+    padding: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: #01579b; /* Dark sky blue */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #b3e5fc; /* Lighter sky blue */
+}
